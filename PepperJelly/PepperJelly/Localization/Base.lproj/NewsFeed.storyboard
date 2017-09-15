@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="gJZ-BI-haO">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lato-Bold.ttf">
+            <string>Lato-Bold</string>
+        </array>
+        <array key="Lato-Regular.ttf">
+            <string>Lato-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Newsfeed-->
+        <scene sceneID="SPC-E1-rcD">
+            <objects>
+                <tableViewController id="gJZ-BI-haO" customClass="NewsFeedTableController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" allowsSelection="NO" rowHeight="76" sectionHeaderHeight="28" sectionFooterHeight="28" id="Wv5-Jt-RQH">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="News" selectionStyle="default" indentationWidth="10" reuseIdentifier="News" rowHeight="75" id="8CG-RZ-vdT" customClass="NewsFeedCell">
+                                <rect key="frame" x="0.0" y="28" width="375" height="75"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="8CG-RZ-vdT" id="eNz-iJ-nf3">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="74.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Username" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="Dze-Tp-vwe">
+                                            <rect key="frame" x="65" y="10" width="183" height="18"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="18" id="dxI-Cx-trl"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="15"/>
+                                            <color key="textColor" red="0.24313725490196078" green="0.24313725490196078" blue="0.24313725490196078" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Followed You" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a6k-3W-HOS">
+                                            <rect key="frame" x="65" y="28" width="170" height="18.5"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="18" id="hI7-1j-6PE"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="15"/>
+                                            <color key="textColor" red="0.24313725490196078" green="0.24313725490196078" blue="0.24313725490196078" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <nil key="highlightedColor"/>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="hI7-1j-6PE"/>
+                                                </mask>
+                                            </variation>
+                                        </label>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ybh-5x-wWE" customClass="DesignableButton">
+                                            <rect key="frame" x="263" y="22.5" width="99" height="30"/>
+                                            <color key="backgroundColor" red="1" green="0.56862745098039214" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="99" id="0jd-r6-4IW"/>
+                                                <constraint firstAttribute="height" constant="30" id="rzv-XU-9BA"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="12"/>
+                                            <state key="normal" title="UNFOLLOW">
+                                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </state>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                    <integer key="value" value="15"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
+                                            <connections>
+                                                <action selector="followButtonPressed:" destination="8CG-RZ-vdT" eventType="touchUpInside" id="qVT-fr-DSu"/>
+                                            </connections>
+                                        </button>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="15 min" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zE9-5L-08A">
+                                            <rect key="frame" x="65" y="46.5" width="170" height="18"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="18" id="SCp-g2-YM7"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="15"/>
+                                            <color key="textColor" red="0.67843137254901964" green="0.67843137254901964" blue="0.67843137254901964" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PBh-JI-Q0N">
+                                            <rect key="frame" x="16" y="17.5" width="40" height="40"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="40" id="uRp-Y0-mj7"/>
+                                                <constraint firstAttribute="height" constant="40" id="zQU-YO-kkj"/>
+                                            </constraints>
+                                            <connections>
+                                                <action selector="profileImgBtnTapped:" destination="8CG-RZ-vdT" eventType="touchUpInside" id="P66-DO-xT0"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E6f-qj-CO3" userLabel="Dish img btn">
+                                            <rect key="frame" x="292" y="17.5" width="40" height="40"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="40" id="Euj-5s-nc9"/>
+                                                <constraint firstAttribute="width" constant="40" id="Y7l-be-0oh"/>
+                                            </constraints>
+                                            <connections>
+                                                <action selector="dishImageBtnTapped:" destination="8CG-RZ-vdT" eventType="touchUpInside" id="Zkf-S9-cx9"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="ybh-5x-wWE" firstAttribute="top" secondItem="Dze-Tp-vwe" secondAttribute="bottom" constant="-5" id="3aE-aq-hRw"/>
+                                        <constraint firstItem="zE9-5L-08A" firstAttribute="top" secondItem="a6k-3W-HOS" secondAttribute="bottom" id="4QQ-rc-ULP"/>
+                                        <constraint firstItem="E6f-qj-CO3" firstAttribute="leading" secondItem="Dze-Tp-vwe" secondAttribute="trailing" constant="44" id="6dA-KO-Hgf"/>
+                                        <constraint firstItem="ybh-5x-wWE" firstAttribute="centerY" secondItem="E6f-qj-CO3" secondAttribute="centerY" id="8zE-jf-7k7"/>
+                                        <constraint firstItem="E6f-qj-CO3" firstAttribute="centerY" secondItem="eNz-iJ-nf3" secondAttribute="centerY" id="9G6-7B-E8v"/>
+                                        <constraint firstItem="PBh-JI-Q0N" firstAttribute="leading" secondItem="eNz-iJ-nf3" secondAttribute="leading" constant="16" id="BMT-xw-Plv"/>
+                                        <constraint firstItem="ybh-5x-wWE" firstAttribute="leading" secondItem="zE9-5L-08A" secondAttribute="trailing" constant="28" id="Bju-Is-rFR"/>
+                                        <constraint firstItem="a6k-3W-HOS" firstAttribute="top" secondItem="Dze-Tp-vwe" secondAttribute="bottom" id="K1o-XI-RpM"/>
+                                        <constraint firstItem="ybh-5x-wWE" firstAttribute="top" secondItem="Dze-Tp-vwe" secondAttribute="bottom" constant="-5" id="Kxo-0a-Gyb"/>
+                                        <constraint firstAttribute="trailing" secondItem="E6f-qj-CO3" secondAttribute="trailing" constant="43" id="Lkt-N6-nye"/>
+                                        <constraint firstItem="ybh-5x-wWE" firstAttribute="leading" secondItem="a6k-3W-HOS" secondAttribute="trailing" constant="28" id="Mrk-dL-nJE"/>
+                                        <constraint firstAttribute="bottom" secondItem="zE9-5L-08A" secondAttribute="bottom" constant="10" id="TwY-Bz-fUy"/>
+                                        <constraint firstItem="zE9-5L-08A" firstAttribute="leading" secondItem="a6k-3W-HOS" secondAttribute="leading" id="XB5-Sx-b05"/>
+                                        <constraint firstItem="Dze-Tp-vwe" firstAttribute="top" secondItem="eNz-iJ-nf3" secondAttribute="top" constant="10" id="gJI-BV-O0T"/>
+                                        <constraint firstItem="zE9-5L-08A" firstAttribute="leading" secondItem="PBh-JI-Q0N" secondAttribute="trailing" constant="9" id="gUv-Zs-yEj"/>
+                                        <constraint firstItem="ybh-5x-wWE" firstAttribute="leading" secondItem="Dze-Tp-vwe" secondAttribute="trailing" constant="15" id="n32-E7-Cvm"/>
+                                        <constraint firstItem="PBh-JI-Q0N" firstAttribute="centerY" secondItem="eNz-iJ-nf3" secondAttribute="centerY" id="wrr-Wf-k1S"/>
+                                        <constraint firstItem="Dze-Tp-vwe" firstAttribute="leading" secondItem="a6k-3W-HOS" secondAttribute="leading" id="zJN-OE-3mq"/>
+                                    </constraints>
+                                    <variation key="default">
+                                        <mask key="constraints">
+                                            <exclude reference="3aE-aq-hRw"/>
+                                            <exclude reference="Kxo-0a-Gyb"/>
+                                        </mask>
+                                    </variation>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="dishImgBtn" destination="E6f-qj-CO3" id="CvM-4B-TuA"/>
+                                    <outlet property="followingButton" destination="ybh-5x-wWE" id="wmK-17-yhd"/>
+                                    <outlet property="messageLbl" destination="a6k-3W-HOS" id="0Di-20-pFn"/>
+                                    <outlet property="profileImgBtn" destination="PBh-JI-Q0N" id="5zf-et-w7j"/>
+                                    <outlet property="timeStampLbl" destination="zE9-5L-08A" id="tYZ-Et-aLK"/>
+                                    <outlet property="userNameLbl" destination="Dze-Tp-vwe" id="KQ1-t2-6B1"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="gJZ-BI-haO" id="ph0-eS-5qw"/>
+                            <outlet property="delegate" destination="gJZ-BI-haO" id="IaR-bh-src"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Newsfeed" id="U1Q-7H-8As">
+                        <barButtonItem key="leftBarButtonItem" image="backArrow" id="e3Y-ZJ-Iuz" userLabel="Back Button">
+                            <color key="tintColor" red="0.92941176469999998" green="0.0" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <connections>
+                                <action selector="backBtnPressed:" destination="gJZ-BI-haO" id="WuX-40-DOZ"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="backButton" destination="e3Y-ZJ-Iuz" id="acY-Ou-ZG0"/>
+                        <segue destination="GmS-Pb-IkE" kind="show" identifier="uploadedPhotoSegue" id="w2k-GT-fY1"/>
+                        <segue destination="fIM-nt-O26" kind="show" identifier="profileOtherSegue" id="iyS-QZ-z16"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xel-xJ-RVq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="505.5" y="388.5"/>
+        </scene>
+        <!--UploadedPhoto-->
+        <scene sceneID="DaN-NU-1KF">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Feed" referencedIdentifier="UploadedPhoto" id="GmS-Pb-IkE" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1pZ-v9-cWr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="870" y="249"/>
+        </scene>
+        <!--ProfileOther-->
+        <scene sceneID="con-9n-Uwd">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Profile" referencedIdentifier="ProfileOther" id="fIM-nt-O26" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="ZLU-aP-WAy"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ETM-3i-3O6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="860.5" y="516"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="backArrow" width="8" height="17"/>
+    </resources>
+</document>

@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "BF339CF75FEEB403518BCC3FD3657251E7BCBD13",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "BF339CF75FEEB403518BCC3FD3657251E7BCBD13" : 0,
+    "B0B5F9662C4B1FC43F7C9D2A0812AFE4EACF51C3" : 9223372036854775807,
+    "1EE15F38327B2B4D1AAA8D8C22395F4D64CD8963" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "04473C46-BA49-4187-B4C5-71060199077E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "BF339CF75FEEB403518BCC3FD3657251E7BCBD13" : "pepperjelly-ios\/",
+    "B0B5F9662C4B1FC43F7C9D2A0812AFE4EACF51C3" : "",
+    "1EE15F38327B2B4D1AAA8D8C22395F4D64CD8963" : "..\/Mindvalley\/mindvalley-awesomepictures"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "PepperJelly",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "PepperJelly\/PepperJelly.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/ehhoffmann\/mindvalley-awesomepictures.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1EE15F38327B2B4D1AAA8D8C22395F4D64CD8963"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ChatZoneRavi\/ChatZone-iOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B0B5F9662C4B1FC43F7C9D2A0812AFE4EACF51C3"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/dogtownmedia\/pepperjelly-ios",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BF339CF75FEEB403518BCC3FD3657251E7BCBD13"
+    }
+  ]
+}

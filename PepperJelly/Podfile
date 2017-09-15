@@ -1,0 +1,24 @@
+platform :ios, '10.0'
+
+use_frameworks!
+
+target "PepperJelly" do
+    pod 'AFNetworking', '~> 3.0'
+    pod 'HockeySDK', '~> 3.8.5'
+    pod 'Google/SignIn'
+    pod 'FBSDKLoginKit', '~> 4.11'
+    pod 'FBSDKCoreKit', '~> 4.11'
+    pod 'AWSCore'
+    pod 'AWSS3'
+    pod 'Fabric'
+    pod 'Crashlytics'
+    pod 'TOCropViewController'
+    pod 'NSDate+TimeAgo'
+    pod 'Mixpanel', '~> 3.0'
+    pod 'SDWebImage', '~> 3.8'
+    pod 'ClusterPrePermissions', '~> 0.8'
+    pod 'MBProgressHUD', '~> 1.0'
+    pod 'Branch'
+    pod 'Cloudinary', '~> 2.0'
+    pod 'AlgoliaSearch-Client-Swift', '~> 4.0'
+end

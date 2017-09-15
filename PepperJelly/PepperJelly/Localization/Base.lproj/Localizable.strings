@@ -1,0 +1,145 @@
+
+/**Splash**/
+
+/**Login**/
+"login_noaccount_1"="don't have an account? ";
+"login_noaccount_2"="sign up";
+"signup_hasaccount_1"="already have an account? ";
+"signup_hasaccount_2"="sign in";
+"signup_setusername_title"="Before you proceed";
+"signup_setusername"="Please set a username.";
+"signup_setlocation"="Please set a location.";//
+"signup_setlocation_title"="Before you proceed.";
+
+/**Messages**/
+"yes"="Yes";
+"cancel"="Cancel";
+
+"error_title"="Oops";
+"error_ok"="Ok";
+"error_invalid_email"="Please enter a valid email address.";
+"error_invalid_name"="Please enter your name.";
+"error_invalid_username"="Please enter your username.";
+"error_invalid_password"="Your password must be of at least 6 letters or numbers.";
+"error_invalid_caption"="Please tell us what are you thoughts about your dish.";
+"error_invalid_caption"="Please rate this dish.";
+"error_invalid_restaurant"="Please select a restaurant.";
+"error_invalid_category"="Please select at least one category.";
+"error_failed_connection"="Please check your connection and try again.";
+"error_failed_register_title"="Failed to register";
+"error_failed_register"="Email address already registered. Do you need help with your password?";
+"error_failed_login_title"="Failed to login";
+"error_failed_forgotpassword_title"="Failed to send";
+"error_failed_changepassword_title"="Failed";
+"error_failed_changeusername"="Username already exists.\nPlease try another one.";
+"error_failed_uploadimage_title"="Failed";
+"error_failed_uploadimage"="It wasn't possible to upload your image.\nPlease check your connection and try again.";
+"error_failed_update_title"="Failed to update";
+"error_failed_location"="Your location cannot be determined at this time. You may be in transit or have a poor signal.";
+"error_failed_location_permissions"="You have location services turned off. PepperJelly needs to use your GPS in order to find contacts that are near your current location. Try again after turning on Location Services in Settings.";
+"error_failed_get_categories_list"="Failed to get categories! Please try again!";
+"error_failed_report_image"="Failed to report image! Please try again!";
+"error_failed_report_profile"="Failed to report user! Please try again!";
+"error_failed_block_profile"="Failed to block user! Please try again!";
+"error_failed_savefilter"="Failed to save filter. Please try again!";
+"error_failed_deletedish"="Failed to delete picture. Please try again!";
+"error_failed_save"="Failed to save. Please try again!";
+
+"success_title"="Success";
+"success_passwordchanged"="Your password has been changed.";
+"success_fullnamechanged"="Your name has been updated.";
+"success_userbiochanged"="Your bio infomation has been updated.";
+"success_emailchanged"="Your email has been updated.";
+"success_usernamechanged"="Your username has been updated.";
+"success_uploadimage"="Image uploaded successfully.";
+"success_removeimage"="Image removed successfully.";
+"success_report_image"="Image reported successfully.";
+"success_report_profile"="User reported successfully.";
+"success_block_profile"="User blocked successfully.";
+
+/**Empty Messages**/
+"emtpy_feeds"="There are no feeds to show with the current filter configurations.";
+"emtpy_feeds_location"="There are no feeds to show for the current location.";
+"empty_saved_restaurants"="You haven't saved any restaurants yet.";
+"empty_uploaded"="You haven't uploaded any pictures yet.";
+"empty_uploaded_otheruser"="This user hasn't uploaded any pictures yet.";
+"empty_liked"="You haven't liked any pictures yet.";
+"empty_followers"="Nobody is following you yet.";
+"empty_followers_otheruser"="Nobody is following this user yet.";
+"empty_following"="You haven't followed anybody yet.";
+"empty_following_otheruser"="This user hasn't followed anybody yet.";
+"empty_search_restaurants"="We couldn't find any restaurant with this name.";
+"empty_search_users"="We couldn't find any user with this name.";
+
+"empty_action_resetfilter"="RESET FILTER";
+"empty_action_changelocation"="CHANGE LOCATION";
+
+/**Location**/
+"location_search_placeholder"="Start typing your location...";
+"location_search_cancel"="CANCEL";
+"default_location"="Set default location";
+
+/**Tutorial**/
+"tutorial_next"="NEXT";
+"tutorial_ok"="OK!";
+
+/**Publish**/
+"all_photos"="All Photos";
+"smart_albums"="Smart Albums";
+"albums"="Albums";
+"libraries"="Pick a library";
+"camera_permission_denied_title"="This app does not have access to your photos or videos.";
+"camera_permission_denied_message"="You can enable access in Privacy Settings.";
+
+/**Restaurant**/
+"views_over10x"="Hey, that's the 10th time you've checked out a photo for this restaurant! Would you like to add this place to your saved restaurants?";
+"views_save"="Save";
+"views_nothanks"="No Thanks";
+"view_menu"="View Website";
+
+/**Profile**/
+"follow"="FOLLOW";
+"unfollow"="UNFOLLOW";
+"profile_picture_errase_prompt"="Are you sure you want to remove your image?";
+"profile_picture_errase_remove"="Remove";
+"profile_picture_errase_cancel"="Cancel";
+
+/**filter**/
+"select"="Select";
+"View All"="View All";
+"Categories"="Categories";
+
+/**Configurations**/
+"feedback_title"="Pepperjelly Feedback";
+"feedback_message"="We would love to hear from you!";
+"feedback_error"="something went wrong";
+"termsofuse"="Terms of Use";
+"privacypolicy"="Privacy Policy";
+"licenses" = "Licenses";
+
+/**Report Options**/
+//Profile
+"report_reason_profile_title"="Report profile as:";
+"report_reason_profile_inappropriate"="Inappropriate Profile";
+"report_reason_profile_spam"="Profile is Spam";
+"report_reason_profile_violates"="Violates PepperJelly's terms of use";
+
+//Photo
+"report_reason_photo_title"="Report photo as:";
+"report_reason_photo_inappropriate"="Inappropriate Photo";
+"report_reason_photo_spam"="Photo is Spam";
+"report_reason_photo_low_quality"="Photo is Blurry / Low Quality";
+
+/** Action Sheet Options **/
+"menu_cancel"="Cancel";
+"menu_block"="Block";
+"menu_report"="Report";
+"menu_share"="Share";
+"menu_delete"="Delete";
+
+
+
+
+
+
+

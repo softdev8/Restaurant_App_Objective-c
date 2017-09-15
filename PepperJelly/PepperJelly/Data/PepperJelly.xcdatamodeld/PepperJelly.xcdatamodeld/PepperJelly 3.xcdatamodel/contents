@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10171" systemVersion="15E65" minimumToolsVersion="Automatic">
+    <entity name="Category" representedClassName="Category" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="restaurant" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Restaurant" inverseName="categories" inverseEntity="Restaurant" syncable="YES"/>
+    </entity>
+    <entity name="OpeningTime" representedClassName="OpeningTime" syncable="YES">
+        <attribute name="closingTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dayOfWeek" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="formatted" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="openingTime" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="restaurant" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Restaurant" inverseName="openingTimes" inverseEntity="Restaurant" syncable="YES"/>
+    </entity>
+    <entity name="Restaurant" representedClassName="Restaurant" syncable="YES">
+        <attribute name="image" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="latitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="placesId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rating" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="restaurantId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="safeName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userId" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="categories" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Category" inverseName="restaurant" inverseEntity="Category" syncable="YES"/>
+        <relationship name="openingTimes" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="OpeningTime" inverseName="restaurant" inverseEntity="OpeningTime" syncable="YES"/>
+    </entity>
+    <entity name="User" representedClassName="User" syncable="YES">
+        <attribute name="fullName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="password" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="role" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="userId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userImage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userName" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="followerUsers" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="User" inverseName="followingUsers" inverseEntity="User" syncable="YES"/>
+        <relationship name="followingUsers" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="User" inverseName="followerUsers" inverseEntity="User" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="User" positionX="846" positionY="18" width="128" height="165"/>
+        <element name="Restaurant" positionX="1089" positionY="-9" width="128" height="208"/>
+        <element name="OpeningTime" positionX="1287" positionY="216" width="128" height="118"/>
+        <element name="Category" positionX="1278" positionY="81" width="128" height="73"/>
+    </elements>
+</model>
