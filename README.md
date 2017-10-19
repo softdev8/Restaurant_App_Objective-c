@@ -1,4 +1,5 @@
-#Install Cocoa Pods
+# Install Cocoa Pods
+
     sudo gem install cocoapods -v
 
 From the terminal locate the working directory
@@ -6,7 +7,7 @@ From the terminal locate the working directory
     pod install
 
 
-#Development and live system
+# Development and live system
 
 The app uses a backend API and S3 for image storage
 
