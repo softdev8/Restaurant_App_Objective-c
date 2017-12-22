@@ -25,6 +25,7 @@
 
 @end
 
+//Tutorial View Controller
 @implementation RestaurantTutorialViewController
 
 - (void)viewDidLoad {
