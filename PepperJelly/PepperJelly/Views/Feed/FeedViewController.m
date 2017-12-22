@@ -505,12 +505,10 @@
     }];
 }
 
-
 #pragma mark - AlertBadgeDelegate Methdos
 -(void)userPressedBadge{
     NSLog(@"user tapped badge");
     [self alertButtonPressed:nil];
 }
-
 
 @end
