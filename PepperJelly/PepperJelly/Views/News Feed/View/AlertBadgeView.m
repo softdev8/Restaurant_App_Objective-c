@@ -44,7 +44,6 @@
 //    if(animating || !self.contentView.hidden)
 //        return;
 //    animating = true;
-    
     self.contentView.hidden = false;
     self.contentView.alpha = 0;
     self.contentView.transform = CGAffineTransformMakeScale(1, 0.1);
