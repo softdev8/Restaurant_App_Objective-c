@@ -228,7 +228,6 @@
 }
 
 -(void)proceedToLogin{
-    print("proceedToLogin")
     if([APIManager.sharedInstance isLoggedIn])
         [self performSegueWithIdentifier:@"feedSegue" sender:self];
     else
