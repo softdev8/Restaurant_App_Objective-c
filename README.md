@@ -1,4 +1,4 @@
-# Install Cocoa Pods and XCode 9.0 with Swift 3.2 and more.
+# Install Cocoa Pods and XCode 9.0 with Swift 3.2 or more.
 
     sudo gem install cocoapods -v
 
