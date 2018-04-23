@@ -3,7 +3,7 @@
 //  PepperJelly
 //
 //  Created by Matt Frost on 4/11/16.
-//  Copyright © 2016 DogTownMedia. All rights reserved.
+//  Copyright © 2016 MobileDev418. All rights reserved.
 //
 
 #import "UserData.h"
