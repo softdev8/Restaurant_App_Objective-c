@@ -3,7 +3,7 @@
 //  PepperJelly
 //
 //  Created by Evandro Harrison Hoffmann on 4/8/16.
-//  Copyright © 2016 DogTownMedia. All rights reserved.
+//  Copyright © 2016 MobileDev418. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
