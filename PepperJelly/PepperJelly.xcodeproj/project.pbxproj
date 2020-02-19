@@ -29,7 +29,6 @@
 		0A39FBCC1CB8109D005866A8 /* ProfileFollowsTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A39FBCB1CB8109D005866A8 /* ProfileFollowsTableView.m */; };
 		0A39FBCF1CB810B3005866A8 /* ProfileFollowsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A39FBCE1CB810B3005866A8 /* ProfileFollowsTableViewCell.m */; };
 		0A39FBD31CB82ADB005866A8 /* ProfileOtherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A39FBD21CB82ADB005866A8 /* ProfileOtherViewController.m */; };
-		0A39FBE31CB85318005866A8 /* FilterTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A39FBE01CB85318005866A8 /* FilterTableViewCell.m */; };
 		0A39FBE41CB85318005866A8 /* FilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A39FBE21CB85318005866A8 /* FilterViewController.m */; };
 		0A5170501CE21D35009B4990 /* FeedSearch+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A51704D1CE21D35009B4990 /* FeedSearch+CoreDataProperties.m */; };
 		0A5170511CE21D35009B4990 /* FeedSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A51704F1CE21D35009B4990 /* FeedSearch.m */; };
@@ -180,6 +179,7 @@
 		0BEC2E281D95F4B700D377CE /* RestaurantMapTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BEC2E271D95F4B700D377CE /* RestaurantMapTableViewCell.m */; };
 		AA4F7D761F61FE3F00ABDA04 /* PepperJelly.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AA4F7D601F61FE3F00ABDA04 /* PepperJelly.xcdatamodeld */; };
 		AABDEB491F5FE4410036A490 /* BannerViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AABDEB481F5FE4410036A490 /* BannerViewCell.m */; };
+		D762A59E23FD3D6700490A25 /* FilterTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D762A59D23FD3D6700490A25 /* FilterTableViewCell.m */; };
 		E60F6991A917D655C63B549F /* Pods_PepperJelly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79A50BD60768621DF02C1DA9 /* Pods_PepperJelly.framework */; };
 		E848C89F1CBC27A6006E01DF /* APIResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = E848C89E1CBC27A6006E01DF /* APIResponse.m */; };
 		E848C8A21CBC29F9006E01DF /* APIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E848C8A11CBC29F9006E01DF /* APIManager.m */; };
@@ -268,8 +268,6 @@
 		0A39FBCE1CB810B3005866A8 /* ProfileFollowsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileFollowsTableViewCell.m; sourceTree = "<group>"; };
 		0A39FBD11CB82ADB005866A8 /* ProfileOtherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileOtherViewController.h; sourceTree = "<group>"; };
 		0A39FBD21CB82ADB005866A8 /* ProfileOtherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileOtherViewController.m; sourceTree = "<group>"; };
-		0A39FBDF1CB85318005866A8 /* FilterTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "\U0010FilterTableViewCell.h"; sourceTree = "<group>"; };
-		0A39FBE01CB85318005866A8 /* FilterTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "\U0010FilterTableViewCell.m"; sourceTree = "<group>"; };
 		0A39FBE11CB85318005866A8 /* FilterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilterViewController.h; sourceTree = "<group>"; };
 		0A39FBE21CB85318005866A8 /* FilterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilterViewController.m; sourceTree = "<group>"; };
 		0A51704C1CE21D35009B4990 /* FeedSearch+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FeedSearch+CoreDataProperties.h"; sourceTree = "<group>"; };
@@ -562,6 +560,8 @@
 		AA4F7D751F61FE3F00ABDA04 /* PepperJelly.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PepperJelly.xcdatamodel; sourceTree = "<group>"; };
 		AABDEB471F5FE4410036A490 /* BannerViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BannerViewCell.h; sourceTree = "<group>"; };
 		AABDEB481F5FE4410036A490 /* BannerViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BannerViewCell.m; sourceTree = "<group>"; };
+		D762A59C23FD3D6700490A25 /* FilterTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilterTableViewCell.h; sourceTree = "<group>"; };
+		D762A59D23FD3D6700490A25 /* FilterTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilterTableViewCell.m; sourceTree = "<group>"; };
 		E848C89D1CBC27A6006E01DF /* APIResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIResponse.h; sourceTree = "<group>"; };
 		E848C89E1CBC27A6006E01DF /* APIResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIResponse.m; sourceTree = "<group>"; };
 		E848C8A01CBC29F9006E01DF /* APIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIManager.h; sourceTree = "<group>"; };
@@ -772,12 +772,12 @@
 		0A39FBDE1CB85318005866A8 /* Filter */ = {
 			isa = PBXGroup;
 			children = (
+				D762A59C23FD3D6700490A25 /* FilterTableViewCell.h */,
+				D762A59D23FD3D6700490A25 /* FilterTableViewCell.m */,
 				0A39FBE11CB85318005866A8 /* FilterViewController.h */,
 				0A39FBE21CB85318005866A8 /* FilterViewController.m */,
 				0A8B2E391D2C8A1B00E4A5BC /* FilterDetailsViewController.h */,
 				0A8B2E3A1D2C8A1B00E4A5BC /* FilterDetailsViewController.m */,
-				0A39FBDF1CB85318005866A8 /* FilterTableViewCell.h */,
-				0A39FBE01CB85318005866A8 /* FilterTableViewCell.m */,
 			);
 			path = Filter;
 			sourceTree = "<group>";
@@ -1757,6 +1757,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -1840,17 +1841,18 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-PepperJelly/Pods-PepperJelly-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-PepperJelly/Pods-PepperJelly-resources.sh",
 				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
-				$PODS_CONFIGURATION_BUILD_DIR/HockeySDK/HockeySDKResources.bundle,
+				"${PODS_CONFIGURATION_BUILD_DIR}/HockeySDK/HockeySDKResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/HockeySDKResources.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PepperJelly/Pods-PepperJelly-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PepperJelly/Pods-PepperJelly-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		0C0C610D1CB32DF700BDB959 /* Run HockeyApp */ = {
@@ -1891,7 +1893,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-PepperJelly/Pods-PepperJelly-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-PepperJelly/Pods-PepperJelly-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/AWSCore/AWSCore.framework",
 				"${BUILT_PRODUCTS_DIR}/AWSS3/AWSS3.framework",
@@ -1903,7 +1905,6 @@
 				"${BUILT_PRODUCTS_DIR}/ClusterPrePermissions/ClusterPrePermissions.framework",
 				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
 				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
-				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
@@ -1925,7 +1926,6 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ClusterPrePermissions.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
@@ -1936,7 +1936,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PepperJelly/Pods-PepperJelly-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PepperJelly/Pods-PepperJelly-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F4FDA59B1CDBFAAB00D2EE43 /* ShellScript */ = {
@@ -1968,11 +1968,11 @@
 				0A6B15E51CC561DB006E644D /* UserData.m in Sources */,
 				0A5721AA1CABF06200F93E07 /* NSString+AttributedString.m in Sources */,
 				0A39FB841CB54192005866A8 /* ProfileSavedCollectionViewCell.m in Sources */,
+				D762A59E23FD3D6700490A25 /* FilterTableViewCell.m in Sources */,
 				0A6B167C1CCAF74E006E644D /* RestaurantHeaderDetailsSaveTableViewCell.m in Sources */,
 				0A6B15EB1CC57813006E644D /* User.m in Sources */,
 				0A5721AC1CABF06200F93E07 /* LoadingView.m in Sources */,
 				0A5722291CAC0A1200F93E07 /* UIColor+PepperJelly.m in Sources */,
-				0A39FBE31CB85318005866A8 /* FilterTableViewCell.m in Sources */,
 				0AA443A91CDBFCBF000DADCD /* DishImageData.m in Sources */,
 				0B3BCAD11D63CBCD006DB203 /* DropDown.swift in Sources */,
 				0A39FBAA1CB59A48005866A8 /* AAPIParser.m in Sources */,
@@ -2342,7 +2342,7 @@
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "PepperJelly/Views/PepperJelly-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -2364,7 +2364,7 @@
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "PepperJelly/Views/PepperJelly-Bridging-Header.h";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
