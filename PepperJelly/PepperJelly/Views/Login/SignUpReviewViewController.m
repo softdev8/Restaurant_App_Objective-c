@@ -78,16 +78,16 @@
         
     }
     self.distanceDropdown = [[DropDown alloc] init];
-    self.distanceDropdown.anchorView = self.rangeLabel;
-    self.distanceDropdown.dataSource = [dropdownDatasource copy];
-    self.distanceDropdown.topOffset = CGPointMake(0, 30.0);
-    [[DropDown appearance] setTextFont:[UIFont fontWithName:@"Lato-Regular" size:14.0]];
-    
-    __block SignUpReviewViewController *weakSelf = self;
-    [self.distanceDropdown setSelectionAction:^(NSInteger index, NSString * _Nonnull item) {
-        NSLog(@"Selected index %ld", (long)index);
-        [weakSelf setNewDistance:(int)index + 1]; // Add one to index value for the number of miles the user selected.
-    }];
+//    self.distanceDropdown.anchorView = self.rangeLabel;               // 
+//    self.distanceDropdown.dataSource = [dropdownDatasource copy];
+//    self.distanceDropdown.topOffset = CGPointMake(0, 30.0);
+//    [[DropDown appearance] setTextFont:[UIFont fontWithName:@"Lato-Regular" size:14.0]];
+//
+//    __block SignUpReviewViewController *weakSelf = self;
+//    [self.distanceDropdown setSelectionAction:^(NSInteger index, NSString * _Nonnull item) {
+//        NSLog(@"Selected index %ld", (long)index);
+//        [weakSelf setNewDistance:(int)index + 1]; // Add one to index value for the number of miles the user selected.
+//    }];
     [self setNewDistance:10];
 }
 
