@@ -20,6 +20,6 @@ target "PepperJelly" do
     pod 'MBProgressHUD', '~> 1.0'
     pod 'Branch'
     pod 'Cloudinary', '~> 2.0'
-    pod 'AlgoliaSearch-Client-Swift', '~> 4.0'
+    pod 'AlgoliaSearch-Client-Swift'
 end
 
