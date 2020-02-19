@@ -7,7 +7,7 @@
 //
 
 #import "AddRestaurantViewController.h"
-#import "FilterTableViewCell.h"
+#import "FilterTableViewCell.h"
 #import "APIManager.h"
 #import "DesignableTextField.h"
 #import "GooglePlace.h"
