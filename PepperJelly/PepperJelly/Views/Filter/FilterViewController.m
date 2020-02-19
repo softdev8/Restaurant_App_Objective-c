@@ -8,7 +8,7 @@
 
 #import "PepperJelly-Swift.h" // Imports all swift files
 #import "FilterViewController.h"
-#import "FilterTableViewCell.h"
+#import "FilterTableViewCell.h"
 #import "DesignableButton.h"
 #import "Constants.h"
 #import "LocationsViewController.h"
@@ -86,16 +86,16 @@
         
     }
     self.distanceDropdown = [[DropDown alloc] init];
-    self.distanceDropdown.anchorView = self.distanceLabel;
-    self.distanceDropdown.dataSource = [dropdownDatasource copy];
-    self.distanceDropdown.bottomOffset = CGPointMake(0, 30.0);
-    [[DropDown appearance] setTextFont:[UIFont fontWithName:@"Lato-Regular" size:14.0]];
-    
-    __block FilterViewController *weakSelf = self;
-    [self.distanceDropdown setSelectionAction:^(NSInteger index, NSString * _Nonnull item) {
-        NSLog(@"Selected index %ld", (long)index);
-        [weakSelf setNewDistance:(int)index + 1]; // Add one to index value for the number of miles the user selected.
-    }];
+//    self.distanceDropdown.anchorView = self.distanceLabel;
+//    self.distanceDropdown.dataSource = [dropdownDatasource copy];
+//    self.distanceDropdown.bottomOffset = CGPointMake(0, 30.0);
+//    [[DropDown appearance] setTextFont:[UIFont fontWithName:@"Lato-Regular" size:14.0]];
+//    
+//    __block FilterViewController *weakSelf = self;
+//    [self.distanceDropdown setSelectionAction:^(NSInteger index, NSString * _Nonnull item) {
+//        NSLog(@"Selected index %ld", (long)index);
+//        [weakSelf setNewDistance:(int)index + 1]; // Add one to index value for the number of miles the user selected.
+//    }];
 }
 
 -(void)viewWillDisappear:(BOOL)animated{
