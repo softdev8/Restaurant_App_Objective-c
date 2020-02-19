@@ -8,7 +8,7 @@
 
 #import "FilterDetailsViewController.h"
 #import "DesignableTextField.h"
-#import "FilterTableViewCell.h"
+#import "FilterTableViewCell.h"
 #import "DesignableButton.h"
 #import "Constants.h"
 #import "LocationsViewController.h"
