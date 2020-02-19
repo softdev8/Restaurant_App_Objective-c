@@ -7,7 +7,7 @@
 //
 
 #import "AddCategoryViewController.h"
-#import "FilterTableViewCell.h"
+#import "FilterTableViewCell.h"
 #import "DesignableTextField.h"
 #import "APIManager.h"
 #import "Category.h"
